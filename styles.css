@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;800&family=Cormorant+SC:wght@300&family=Edu+TAS+Beginner:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Montserrat:ital,wght@0,400;1,300;1,400&family=Ubuntu:ital,wght@0,400;1,300;1,700&display=swap');
+
+body {
+    margin: 0; padding: 0;
+    background-color: #F0EBE3;
+    font-family: 'Anek Bangla', sans-serif;
+    font-weight: 300px;
+    font-size: large;
+}
+h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 1000;
+}
+h2{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+h3{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(58, 55, 51);
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+    color: #243A73;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#menubar{
+    border: 0 solid black;
+    background-color: #D3CEDF;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+#profile-img{
+    animation:name duration timingfunction delay iteration-count
+    direction fill-mode;
+   border: 0 solid black;
+   height: 80px;
+   width: 80px;
+   margin: 10px 0 0 100px;
+   position: absolute;
+}
+.imgs{
+    height: 80px;
+}
+#navbar-menu{
+    border: 0 solid black;
+    height: 100px;
+    width:50% ;
+    margin-left: 30%;
+    position:absolute;
+}
+#nav li {
+    display: inline-block;
+    margin-top: 30px;
+    list-style: none;
+    
+}
+.navbar  a{
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;   
+}
+#about-me {
+    margin: 20px; 
+    border: 0 solid black;
+    background-color: #E4DCCF;
+    height: 550px;   
+}
+.about{
+    margin: 10px; 
+    text-align: justify;
+}
+.manager-img{
+    height: 350px;
+    float: right;
+}
+.certificate-img{
+    height: 400px;
+}
+#my-skills{
+    border: 0 solid black;
+    background-color: #9CB4CC;
+    margin: 20px; 
+    text-align: center;
+    
+}
+#my-skills ul li{
+   list-style: none;
+   color: rgb(255, 255, 255);
+}
+#my-certyificate{
+    margin: 20px; 
+    border: 0 solid black;
+    background-color: #7D9D9C;
+    text-align: center;
+}
+#contact-detail{
+    border: 0 solid black;
+    background-color: #576F72;
+    margin: 20px; 
+    text-align: center;
+}
+footer{
+      border: 0 solid black;
+      background-color: #3F4E4F;
+      margin: 20px; 
+      text-align: center;
+}
+.icons{
+    
+    height: 38px;
+    width: 39px;
+}
